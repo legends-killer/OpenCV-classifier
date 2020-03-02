@@ -7,7 +7,7 @@ for i in range(1,10):
     img = cv2.imread(name)
     img = cv2.resize(img, (550, 800))
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    doors = cascade.detectMultiScale(gray, 1.5, 7, cv2.CASCADE_SCALE_IMAGE, (100,100), (800,800))
+    doors = cascade.detectMultiScale(gray, 1.1, 7, cv2.CASCADE_SCALE_IMAGE, (100,100), (800,800))
     maxx = 0
     maxy = 0
     ww = 0

@@ -1,0 +1,2 @@
+2.CASCADE_SCALE_IMAGE, (100,100), (800,800))
+    maxx = 0
