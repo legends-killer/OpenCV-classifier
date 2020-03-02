@@ -129,5 +129,5 @@ dmypy.json
 .pyre/
 
 .vscode
-negatives_images/
+negative_images/
 positive_images/
